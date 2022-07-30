@@ -1,0 +1,351 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box
+
+}
+
+body{
+    width:100vw;
+    overflow-x: hidden;
+}
+
+#upperNav{
+    width:100%;
+    /* background:black; */
+    height:50px;
+    display:flex;
+    flex-direction: row;
+}
+
+#Navleft{
+    width:60%;
+    height:100%;
+    
+}
+
+#Navright{
+    width:40%;
+    height:100%
+}
+
+#Navleft #subnavleft,#Navright #subnavright{
+    width:100%;
+    display:flex;
+    height:100%;
+    flex-direction: row;
+   
+}
+#Navright #subnavright{
+    justify-content: end;
+    padding-right:15px
+}
+#subnavright .buttonWo{
+width:27%;
+background:blue;
+height:100%;
+border:0px;
+border-radius: 5px;
+padding:5px;
+
+color:white
+
+}
+
+#subnavright .Noclr{
+    background:None;
+    color:black;
+}
+
+.buttonWo{
+    display:flex;
+    flex-direction: row;
+    margin-right:2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonWo .btnwoimg{
+    width:20%;
+    height:70%;
+   
+}
+
+.buttonWo .btnwoimg img{
+    width:100%;
+    height:100%;
+   
+  
+}
+
+.buttonWo .btncontent{
+    margin-left:8px;
+    width:60%;
+    height:100%;
+    
+    display:flex;
+    justify-content: center;;
+    flex-direction: column;
+}
+
+.buttonWo .btncontent p{
+   
+    font-size: 20px;
+
+}
+
+#subnavright .settingnav{
+    width:8%;
+    height:100%;
+    
+    display:flex;
+    flex-direction: row;
+
+}
+
+#subnavright .settingnav .setheight{
+    padding-top:2px;
+    height:60%;
+    
+}
+
+#subnavright .settingnav .threedots,#subnavright .settingnav .cross{
+    width:50%
+}
+
+#subnavright .settingnav .threedots img,#subnavright .settingnav .cross img{
+    width:100%;
+    height:100%;
+    
+    
+}
+
+#subnavright .settingnav .cross img{
+    height:50%;
+    width:60%;
+    margin-left:5px
+}
+
+
+#subnavleft .navicon{
+    width:6%;
+    height: 100%;
+    padding:15px;
+   
+}
+#subnavleft .navleftcontent{
+    height:100%;
+    
+}
+
+#subnavleft .navleftcontent h2{
+    font-size:25px;
+   
+    padding:15px 15px 15px 0px ;
+}
+.navicon img{
+    width:100%;
+    height:100%
+}
+
+
+
+
+
+#main{
+    width:100%;
+    display:flex;
+    
+
+}
+
+#mainleft{
+    width:55%;
+
+    height:100%
+    
+}
+
+#mainleft #descriptionmain{
+    width:100%;
+    
+    display:flex;
+    flex-direction: column;
+}
+
+.descriptionTitle{
+    width:100%;
+    height:20%
+}
+
+#mainleft #descriptionmain .descriptioninput{
+    height:50px;
+    
+}
+
+#mainleft #descriptionmain .descriptioninput input{
+    height:100%;
+    font-size: 18px;
+    width:100%;
+    margin-top:5px;
+    border:none
+
+}
+
+#mainleft #caution{
+width:100%;
+background:skyblue;
+margin-top:30px;
+padding:10px;
+}
+
+#caution ul{
+    list-style: none;
+}
+
+#caution ul li{
+    font-size:22px;
+    height:22px;
+    margin-top:5px
+}
+
+#caution ul li img{
+    width:22px;
+    height:22px
+}
+
+
+#mainleft #lowernav{
+    width:100%;
+    height:50px;
+    margin-top:10px;
+    display:flex;
+    flex-direction: row;
+   border-bottom: 1px solid black;
+   padding-left: 5px;
+}
+
+#mainleft #lowernav .lnav{
+   font-size:20px;
+   padding:10px;
+   height:100%;
+  
+   
+}
+
+#mainleft #lowernav .active{
+    border:1px solid black;
+    border-bottom: 1px solid white;
+    height:51px;
+    background-color: white;
+ }
+
+ #mainleft #extrainfo{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-top:10px
+ }
+
+ #mainleft #extrainfo .setheight{
+  
+    font-size:20px;
+    display: flex;
+    align-items: center;
+ }
+
+ #mainleft #extrainfo .setheight img{
+    width:20px;
+    height:20px;
+    margin-right: 5px;
+ }
+
+ #mainleft #extrainfo .Save{
+    margin-top:10px
+ }
+ #mainleft #extrainfo .Save span img{
+    margin-left:5px;
+    
+ }
+
+ 
+#mainright{
+    width:45%;
+    
+    height:100%
+}
+
+#mainright #details{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainright #details .detailsTitle{
+    width:100%
+}
+
+#mainright #details .detailContent{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+   
+}
+
+#mainright #details .detailContent .assest{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:10px
+}
+
+#mainright #details .detailContent .assest:last-of-type{
+    margin-bottom:60px
+}
+
+#mainright #details .detailContent .assest .assestTitle{
+    font-size:20px;
+    display:flex;
+    align-items: center;
+}
+
+#mainright #details .detailContent .assest .assestTitle img{
+    width:20px;
+    height:20px
+}
+
+#mainright #details .detailContent .assest .assestContent{
+    width:35%;
+    font-size:20px;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#mainright #details .detailContent .assest .assestContent img{
+    width:20px;
+    height:20px
+}
+
+#mainright #details .detailContent .assest .assignedContent img{
+    width:35px;
+    height:35px;
+    margin-right:5px
+
+}
+
+#mainright #details .detailContent .assest .categoryContent select{
+ width:100%;
+ height:40px;
+ font-size:20px;
+ 
+}
+
+#mainright #details  .updateinfo{
+    width:80%;
+    margin-top:40px
+}
+
